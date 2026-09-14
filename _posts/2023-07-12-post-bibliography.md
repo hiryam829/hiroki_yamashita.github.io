@@ -6,6 +6,7 @@ description: an example of a blog post with bibliography
 tags: formatting bib
 categories: sample-posts
 giscus_comments: true
+published: false
 related_posts: false
 related_publications: true
 ---

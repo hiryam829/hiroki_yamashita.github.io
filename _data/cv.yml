@@ -1,189 +1,182 @@
 cv:
-  name: Albert Einstein
-  label: Scientist
-  email: einstein@example.com
-  location: Princeton, NJ
-  image: ""
-  summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
+  name: Hiroki Yamashita
+  #label: Scientist
+  email: hiroki.yamashita[at]cnrs.fr
+  affiliation: EHESS, ISC-PIF(CNRS)
+  location: Paris, France
+  #image: ""
+  #summary: A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time
 
   social_networks:
-    - network: X
-      username: AlbertEinstein
-    - network: GitHub
-      username: example
     - network: LinkedIn
       username: example
-
-  address:
-    street: 2712 Broadway St
-    city: San Francisco
-    region: California
-    postalCode: CA 94115
-    countryCode: US
+    - network: Google Scholar
+      username: example
+  #address:
+  #  street: 2712 Broadway St
+  #  city: San Francisco
+  #  region: California
+  #  postalCode: CA 94115
+  #  countryCode: US
 
   sections:
     Education:
-      - institution: University of Zurich
-        location: Zurich, Switzerland
-        url: https://www.uzh.ch/
-        area: Physics
+      - institution: L'École des Hautes Études en Sciences Sociales (EHESS) 
+        location: Paris, France
+        url: https://www.ehess.fr/
+        area: Political Science
         studyType: PhD
-        start_date: 1900
-        end_date: 1905
+        start_date: 2024
+        end_date: 
         score: ""
-        courses: "Theory of Relativity"
-        highlights:
-          - Description 1.
-          - Description 2.
+        #courses: "Theory of Relativity"
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
 
-      - institution: Eidgenössische Technische Hochschule
-        location: Zurich, Switzerland
-        area: Physics
-        studyType: Federal teaching diploma
-        start_date: 1896
-        end_date: 1900
-        highlights:
-          - Description 1.
-          - Description 2.
+      - institution: Sciences Po Paris
+        location: Paris, France
+        area: Sociology
+        studyType: Master's degree
+        start_date: 2022
+        end_date: 2024
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
+
+      - institution: Sciences Po Paris, campus du Havre
+        location: Le Havre, France
+        area: Economics
+        studyType: Bachelor’s degree
+        start_date: 2017
+        end_date: 2021
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
+
+      - institution: Keio university
+        location: Tokyo, Japan
+        area: Economics
+        studyType: Bachelor’s degree
+        start_date: 2016
+        end_date: 2021
+        #highlights:
+        #  - Description 1.
+        #  - Description 2.
 
     Experience:
-      - company: Institute for Advanced Study, Princeton University
-        position: Professor of Theoretical Physics
-        location: Princeton University, NJ
-        start_date: 1933
-        end_date: 1955
-        summary: Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.
-        highlights:
-          - Relativity
-          - Description 2.
+      - company: FOCOS, Université Paris Cité
+        position: Research Assistant
+        location: Paris, France
+        start_date: 2024
+        end_date: 2024
+        summary: Project on the estimation of political actors’ ideal points on survey dimensions based on social network data and its validation with textual data under Prof. Pedro Ramaciotti Morales.
 
-      - company: California Institute of Technology
-        position: Visiting Professor
-        location: Pasadena, California, US
-        start_date: 1933
-        end_date: 1933
-        highlights:
-          - Description 1.
-          - Description 2.
 
-      - company: Kaiser Wilhelm Institute for Physics
-        position: Director
-        location: Berlin, Germany
-        start_date: 1917
-        end_date: 1933
+      - company: ERC J-InnovaTech, CNRS
+        position: Research Assistant
+        location: Paris, France
+        start_date: 2023
+        end_date: 
+        summary: Digital humanities project on technological advancement in Japan under Prof. Aleksandra Kobiljski. Responsible for data analysis and visualization of the network and geographic data retrieved from historical archives using Gephi and QGIS.
 
-      - company: Karl-Ferdinand University
-        position: Professor of Theoretical Physics
-        location: Prague, Czechoslovakia
-        start_date: 1911
-        end_date: 1917
+      - company: Medialab, SciencesPo Paris
+        position: Research Assistant
+        location: Paris, France
+        start_date: 2023
+        end_date: 2023
+        summary: The European Polarization Observatory project funded by CIVICA under Prof. Pedro Ramaciotti Morales. Responsible for annotation of parliamentarians’ social network accounts and standardization of data to match with Chapel Hill Expert Survey using Python.
 
-      - company: University of Zurich
-        position: Associate Professor of Theoretical Physics
-        location: Zurich, Switzerland
-        start_date: 1909
-        end_date: 1911
 
-    Volunteer:
-      - company: People's Climate March
-        position: Lead Organizer
-        location: Zurich, Switzerland
-        start_date: 2014-04-01
-        end_date: 2015-07-01
-        summary: Lead organizer for the New York City branch of the People's Climate March, the largest climate march in history.
-        highlights:
-          - "Awarded 'Climate Hero' award by Greenpeace for my efforts organizing the march."
-          - "Men of the year 2014 by Time magazine"
+      - company: Jiritsu Gakusyuu Sacacell
+        position: Contents Manager, System Development
+        location: Tokyo, Japan
+        start_date: 2020
+        end_date: 2024
 
-    Awards:
-      - title: Nobel Prize in Physics
-        authors:
-          - "Royal Swedish Academy of Sciences"
-        date: 1921-11-01
-        awarder: Royal Swedish Academy of Sciences
-        url: https://www.nobelprize.org/prizes/physics/1921/einstein/biographical/
-        summary: The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'
-
-      - title: Max Planck Medal
-        authors:
-          - "German Physical Society"
-        date: 2029
-        awarder: German Physical Society
-        summary: Awarded for outstanding scientific achievement
+      - company: Repro Inc.
+        position: Media Intern
+        location: Tokyo, Japan
+        start_date: 2016
+        end_date: 2017
 
     Publications:
-      - title: Zur Elektrodynamik bewegter Körper
+      - title: "Mapping the political landscape from data traces: multidimensional opinions of users, politicians and media outlets on X"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-06-30
-        url: https://en.wikisource.org/wiki/Translation:On_the_Electrodynamics_of_Moving_Bodies
-        summary: It concerned an interpretation of the Michelson–Morley experiment and the properties of light and time. Special relativity incorporates the principle that the speed of light is the same for all inertial observers regardless of the state of motion of the source.
+          - Antoine Vendeville
+          - Jimena Royo-Letelier
+          - Duncan Cassells
+          - Jean-Philippe Cointet
+          - Maxime Crépel
+          - Tim Faverjon
+          - Théophile Lenoir
+          - Béatrice Mazoyer
+          - Benjamin Ooghe-Tabanou
+          - Armin Pournaki
+          - Hiroki Yamashita
+          - Pedro Ramaciotti
+        publisher: Data in Brief
+        releaseDate: 2026-02-21
+        url: https://doi.org/10.1016/j.dib.2026.112615
+        summary: "Studying political activity on social media often requires defining and measuring political stances of users or content. Relevant examples include the study of opinion polarization, or the study of political diversity in online content diets. While many research designs rely on operationalizations best suited for the US setting, few allow addressing more general political systems, in which users and media outlets might exhibit stances on multiple ideology and issue dimensions, going beyond traditional Liberal-Conservative or Left-Right scales. To advance the study of more general online ecosystems, we present a dataset pertaining to a population of 519 K X/Twitter users, parliamentarians, and media outlets embedded in a political space spanned by dimensions measuring attitudes towards immigration, the EU, liberal values, elites and institutions, nationalism and the environment, in addition to left-right and liberal-conservative scales. We include indicators of individual activity and popularity: mean number of posts per day, number of followers, and number of followees. We provide several benchmarks validating the positions of these entities and discuss several applications for this dataset."
 
-      - title: Über einen die Erzeugung und Verwandlung des Lichtes betreffenden heuristischen Gesichtspunkt
+      - title: "The Resting Fields Alliance of Ten Salt-Making Provinces of Japan (1809–1888)"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1905-03-18
-        url: https://de.wikisource.org/wiki/Über_einen_die_Erzeugung_und_Verwandlung_des_Lichtes_betreffenden_heuristischen_Gesichtspunkt
-        summary: In the second paper, he applied the quantum theory to light to explain the photoelectric effect. In particular, he used the idea of light quanta (photons) to explain experimental results, but stressed the importance of the experimental results. The importance of his work on the photoelectric effect earned him the Nobel Prize in Physics in 1921.
+          - Aleksandra Kobiljski
+          - Mathieu Fauré
+          - Hiroki Yamashita
+        publisher: Journal of Open Humanities Data
+        releaseDate: 2026-01-23
+        url: https://doi.org/10.5334/johd.396
+        summary: "The aim of this discussion paper is to describe the dataset entitled The Resting Fields Alliance of Ten Salt-making Provinces of Japan (1809–1888) available via Nakala repository. This dataset, along with the present discussion paper, is designed to support and enhance research work on the shifts in the salt industry between 1809 and 1888. The data were produced with the goal of enabling historical social network analysis (SNA), data visualization and other forms of data exploration, including but not limited to hypothesis testing. This dataset is available under the Open Data Commons Open Database License (ODbL-1.0) to support the replicability of historical analysis in progress and forthcoming in the domain of history of industry and enterprise in 19th-century Japan. The discussion paper provides the research context that enabled data production as well as a description of data harvesting and input protocols used in the course of data production. In line with Open Science principles, including standards of findability, accessibility, interoperability and reusability, the ambition of this discussion paper, as well as the dataset, is to contribute to new standards of reproducibility in the discipline of history and in the field of Asian Studies."
 
-      - title: Die Grundlage der allgemeinen Relativitätstheorie
+      - title: "Network Analysis of a Maritime Trade in Medieval Japan: Visualizing the 1445 Toll Register of Incoming Ships at the Hyōgo Northern Barrier (present-day Kobe)"
         authors:
-          - Albert Einstein
-        publisher: Annalen der Physik
-        releaseDate: 1916-03-20
-        url: https://de.wikisource.org/wiki/Die_Grundlage_der_allgemeinen_Relativitätstheorie
-        summary: The publication of the theory of general relativity made him internationally famous. He was professor of physics at the universities of Zurich (1909–1911) and Prague (1911–1912), before he returned to ETH Zurich (1912–1914).
+          - Dimitri Tatoyan
+          - Aleksandra Kobiljski
+          - Hiroki Yamashita
+          - Eric Mermet
+        publisher: Journal of Open Humanities Data
+        releaseDate: 2024
+        url: https://jhnr.net/articles/10.25517/jhnr.v10i1.86
+        summary: "The 1445 Toll Register is the only surviving medieval customs register in Japan. As such, it is a precious window into Japan’s medieval commercial revolution. While well studied using traditional methods, this article is the first attempt to submit this source to social network analysis (SNA) methods. It highlights the potential of statistical, spatial and network analysis, producing visualizations which nuance our understanding of the role of commercial agents in the medieval maritime trade. Starting from visualizing the overall network, this article probes into the legwork of a commodity network, much of which passed through the hands of the commercial agents. Our analysis also reveals that a group of 32 actors, who in the register appear to have been principally commercial agents, were in fact also shipmasters. A community detection method allows us to open up new avenues of understanding maritime trade clusters, while geospatial data visualization point to a historically irregular absence which requires further research."
+
+    Talks:
+      - bullet: "European Political Science Society (2026) “Revisiting EU Integration: Measuring the Dimensionality of European Integration Using Social Media Data“"
+      - bullet: The Society of Law and Management  (2026) "Public Pressure, Factional Dissolution, and the (Un)changing Face of Intra-Party Competition in the Liberal Democratic Party in Japan (In Japanese)"
+      - bullet: "Hori Family Archives Symposium - Commerce, Finance, and Regional Society in Early Modern Japan  (2026) “From historical archive to application: at the intersection of history and data science (In Japanese)“"
+      - bullet: The Society of Law and Management  (2025) "Current state of multidimensional scaling methods (In Japanese)"
+      - bullet: SICSS-Lake Como - EPO Workshop (2025) "Measuring dimensionality of political space using social media data"
+      - bullet: The conference of History of Civil Engineering  (2024) "Network Analysis of a Maritime Trade in Medieval Japan (In Japanese)"
+
+    Services:
+      - label: Peer review
+        details: PLOS ONE, Nature Humanities and Social Sciences Communications, Social Science Computer Review
 
     Skills:
-      - name: Physics
-        level: Master
+      - name: Python
         icon: fa-solid fa-hashtag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
+        keywords: "Natural Language Processing, Machine Learning Model, web scraping"
+      - name: R
+        icon: fa-solid fa-hashtag
+        keywords: "Natural Language Processing, regression discontinuity design, web scraping"
+      - name: Gephi
+        icon: fa-solid fa-hashtag
+        keywords: "visualization of static and dynamic network"
+      - name: QGIS
+        icon: fa-solid fa-hashtag
+        keywords: "visualization of geographic data"
 
     Languages:
-      - name: German
+      - name: Japanese
         summary: "Native speaker"
 
       - name: English
         summary: "Fluent"
 
-    Interests:
-      - name: Physics
-        icon: fa-solid fa-tag
-        keywords: "Quantum Mechanics, Quantum Computing, Quantum Information, Quantum Cryptography, Quantum Communication, Quantum Teleportation"
-
-    Certificates:
-      - name: Machine Learning
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-location-dot
-
-      - name: Quantum Computing
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-tag
-
-      - name: Quantum Information
-        date: 2018-01-01
-        issuer: Stanford University
-        icon: fa-solid fa-envelope
-
-    Projects:
-      - name: Quantum Computing
-        summary: Quantum computing is the use of quantum-mechanical phenomena such as superposition and entanglement to perform computation. Computers that perform quantum computations are known as quantum computers.
-        highlights:
-          - Quantum Teleportation
-          - Quantum Cryptography
-        start_date: 2018-01-01
-        end_date: 2018-01-01
-
-    References:
-      - name: Professor John Doe
-        icon: fa-solid fa-laptop
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
-
-      - name: Professor Jane Smith
-        icon: fa-solid fa-thumbtack
-        reference: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam condimentum, diam quis convallis euismod, arcu mi ullamcorper lorem, a vestibulum nunc magna at sem. Sed in risus ac felis varius blandit.
+      - name: French
+        summary: "Fluent"
+      
+      - name: German
+        summary: "Beginner (A2)"
+    
